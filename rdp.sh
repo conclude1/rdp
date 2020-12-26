@@ -1,5 +1,5 @@
 #! /bin/bash
-printf "Installing RDP Be Patience... " >&2
+printf "Yükleniyor... " >&2
 {
 sudo useradd -m Conclude
 sudo adduser Conclude sudo
